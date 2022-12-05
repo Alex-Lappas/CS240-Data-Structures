@@ -1,0 +1,10 @@
+DPRINT("%c <%d> <%d> DONE\n", buff[0], itm, iId);
+				int print_after_insert = 0;
+				for(print_after_insert; print_after_insert<MG;++print_after_insert){ 
+					printf("GROUPID = <%d>,INFOLIST=", groups[print_after_insert].gId);
+					printf("<");
+					DL_Print(groups[print_after_insert].gfirst);
+					printf(">");
+					printf("\n");
+					
+				}
